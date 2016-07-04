@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[32767, 600]"/>
+    </Property>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[590, 380]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="remSleepLbl" alignment="0" max="32767" attributes="1"/>
+                          <Component id="lightSleepLbl" alignment="0" max="32767" attributes="1"/>
+                          <Component id="deepSleepLbl" alignment="0" max="32767" attributes="1"/>
+                          <Component id="totalSleepLbl" alignment="0" max="32767" attributes="1"/>
+                          <Component id="wakeTimeLbl" alignment="0" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace pref="510" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="zTimeLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="zTimeValue" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="remSleepValue" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lightSleepValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="deepSleepValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="wakeTimeValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="totalSleepValue" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="totalPercentValue" alignment="0" pref="464" max="32767" attributes="0"/>
+                                  <Component id="remPercentValue" alignment="0" pref="464" max="32767" attributes="0"/>
+                                  <Component id="lightPercentValue" alignment="0" pref="464" max="32767" attributes="2"/>
+                                  <Component id="deepPercentValue" alignment="0" pref="464" max="32767" attributes="0"/>
+                                  <Component id="wakePercentValue" alignment="0" pref="464" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="bedtimeLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bedtimeValue" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace pref="397" max="32767" attributes="0"/>
+                              <Component id="riseTimeLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="riseTimeValue" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace pref="484" max="32767" attributes="0"/>
+                              <Component id="wokenTimeLbl" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="wokenTimeValue" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="hypnogramPanel1" pref="588" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="zqLbl" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="zqValue" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="zqLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="zqValue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Component id="hypnogramPanel1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="bedtimeLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="bedtimeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="riseTimeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="riseTimeLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="zTimeLbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="zTimeValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="wokenTimeLbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="wokenTimeValue" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="totalSleepLbl" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="totalSleepValue" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="totalPercentValue" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="remSleepLbl" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="remSleepValue" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="remPercentValue" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="lightSleepLbl" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lightSleepValue" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="lightPercentValue" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="deepSleepLbl" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="deepSleepValue" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="deepPercentValue" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="2" attributes="0">
+                  <Component id="wakeTimeLbl" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="wakeTimeValue" alignment="2" min="-2" max="-2" attributes="0"/>
+                  <Component id="wakePercentValue" alignment="2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="zqLbl">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="zqValue"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="zqLbl.text"/>
+        <Property name="name" type="java.lang.String" value="zqLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bedtimeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="bedtimeLbl.text"/>
+        <Property name="name" type="java.lang.String" value="bedtimeLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="riseTimeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="riseTimeLbl.text"/>
+        <Property name="name" type="java.lang.String" value="riseTimeLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zTimeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="zTimeLbl.text"/>
+        <Property name="name" type="java.lang.String" value="zTimeLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="totalPercentValue">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" resourceKey="totalPercentValue.foreground"/>
+        <Property name="value" type="int" value="100"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder/>
+          </Border>
+        </Property>
+        <Property name="name" type="java.lang.String" value="totalPercentValue" noResource="true"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalSleepLbl">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="totalSleepValue"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="totalSleepLbl.text"/>
+        <Property name="name" type="java.lang.String" value="totalSleepLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="remSleepLbl">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="remSleepValue"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="remSleepLbl.text"/>
+        <Property name="name" type="java.lang.String" value="remSleepLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lightSleepLbl">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="lightSleepValue"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="lightSleepLbl.text"/>
+        <Property name="name" type="java.lang.String" value="lightSleepLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deepSleepLbl">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="deepSleepValue"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="deepSleepLbl.text"/>
+        <Property name="name" type="java.lang.String" value="deepSleepLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wakeTimeLbl">
+      <Properties>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="wakeTimeValue"/>
+        </Property>
+        <Property name="text" type="java.lang.String" resourceKey="wakeTimeLbl.text"/>
+        <Property name="name" type="java.lang.String" value="wakeTimeLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="remPercentValue">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="remPercentValue" noResource="true"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="lightPercentValue">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="lightPercentValue" noResource="true"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="deepPercentValue">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="deepPercentValue" noResource="true"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="wakePercentValue">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="wakePercentValue" noResource="true"/>
+        <Property name="stringPainted" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wokenTimeLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="wokenTimeLbl.text"/>
+        <Property name="name" type="java.lang.String" value="wokenTimeLbl" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zqValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="zqValue.text"/>
+        <Property name="name" type="java.lang.String" value="zqValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bedtimeValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="bedtimeValue.text"/>
+        <Property name="name" type="java.lang.String" value="bedtimeValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zTimeValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="zTimeValue.text"/>
+        <Property name="name" type="java.lang.String" value="zTimeValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="totalSleepValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="totalSleepValue.text"/>
+        <Property name="name" type="java.lang.String" value="totalSleepValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="remSleepValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="remSleepValue.text"/>
+        <Property name="name" type="java.lang.String" value="remSleepValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lightSleepValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="lightSleepValue.text"/>
+        <Property name="name" type="java.lang.String" value="lightSleepValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="deepSleepValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="deepSleepValue.text"/>
+        <Property name="name" type="java.lang.String" value="deepSleepValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wakeTimeValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="wakeTimeValue.text"/>
+        <Property name="name" type="java.lang.String" value="wakeTimeValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="riseTimeValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="riseTimeValue.text"/>
+        <Property name="name" type="java.lang.String" value="riseTimeValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wokenTimeValue">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="wokenTimeValue.text"/>
+        <Property name="name" type="java.lang.String" value="wokenTimeValue" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="zeoDecoderViewer.hypnogramPanel" name="hypnogramPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" resourceKey="hypnogramPanel1.background"/>
+        <Property name="name" type="java.lang.String" value="hypnogramPanel1" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[576, 140]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="588" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="140" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
